@@ -5,6 +5,7 @@
   --text1: hsl(0, 0%, 100%);
   --text2: hsl(0, 0%, 85%);
   --invalid: hsl(7, 100%, 68%);
+  --fs-body: 1.125rem;
 }
 
 html {
@@ -23,4 +24,6 @@ body {
   font-family: "Space Grotesk", sans-serif;
   background-color: var(--bg-body);
   color: var(--text1);
+  font-size: var(--fs-body);
+  line-height: 1.56;
 }
