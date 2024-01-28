@@ -40,3 +40,12 @@ body {
   max-width: var(--container);
   margin-inline: auto;
 }
+
+/* Tablet: 600px */
+@media (min-width: 37.5rem) {
+  .wrapper {
+    width: calc(100% - 3.75rem);
+    max-width: var(--container);
+    margin-inline: auto;
+  }
+}
